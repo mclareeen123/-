@@ -1,0 +1,134 @@
+# 1 задание 
+# 1. 
+first_num = 9
+second_num = 7.8
+my_str = "start"
+
+# 2.
+print(f"{first_num}.{second_num} {my_str}")
+
+# 3.
+first_num = 5.2
+
+# 4. 
+print(f"{first_num} {type(first_num)}")
+
+# 5.
+third_num = first_num + second_num
+
+# 6.
+print(f"{third_num} {type(third_num)}")
+
+# 7.
+first_num += 5
+second_num += first_num
+
+# 8. 
+print(f"{first_num} {second_num}")
+
+# 9.
+second_num = int(second_num)
+
+# 10. 
+print(f"{first_num} {second_num}")
+
+# 11. 
+my_str += "&stop"
+
+# 12. 
+print(my_str)
+
+# 13. 
+my_str_multiplied = my_str * 5
+
+# 14.
+print(my_str_multiplied)
+
+#2 задание
+
+# 1. 
+path = "C:\\Users\\WainAdmin\\Desktop\\programs"
+
+# 2. 
+print(path)
+
+# 3.
+path += "\\game.exe"
+
+# 4. 
+print(path)
+
+# 5. 
+path = "C:\\Users\\WainAdmin\\Desktop\\files"
+
+# 6.
+path += "\\picture.png"
+
+# 7
+print(path)
+
+# 8. 
+path = "C:\\Games\\city simulator"
+
+# 9. 
+path = path * 2
+
+# 10. 
+print(f"Error path: {path}")
+
+#задание 3
+ 
+ # 1. Создайте три переменные:
+num_1 = 7
+num_2 = 10
+num_3 = 4
+
+# 2. 
+summ = num_1 + num_2 + num_3
+
+# 3. 
+print(f"Сумма всех целых чисел: {summ}")
+
+# 4.
+num_1 = 7.9
+num_2 = 21.3
+num_3 = float(num_3)
+
+# 5. 
+summ = num_1 + num_2 + num_3
+
+# 6. 
+print(f"Сумма всех нецелых чисел: {summ}")
+
+# 7. 
+num_1 = 130
+num_2 = 4
+num_3 = 2
+
+# 8
+multiplying = num_1 * num_2 * num_3
+
+# 9. 
+print(f"Умножение всех чисел: {multiplying}")
+
+# 10. 
+division = (num_1 / num_2) / num_3
+
+# 11. 
+print(f"Деление: {division}")
+
+# 12
+num_1 = 2
+num_2 = 3
+num_3 = 4
+
+# 13. 
+degree = num_1 ** (num_2 ** num_3)
+
+# 14. 
+print(f"Числа в степени: {degree}")
+
+# 15. 
+num_1 = 2
+num_2 = 8
+num_3 = 5
