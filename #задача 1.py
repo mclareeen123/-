@@ -1,0 +1,82 @@
+#задача 1 
+minutes = int(input("Введите количество минут"))
+
+hours = minutes // 60
+remaining_minutes = minutes % 60
+
+print(hours, remaining_minutes)
+
+#задача 2
+
+a = int(input())   # это рекомендация
+b = int(input())   #не более стольки часов
+h = int(input())    # столько она спит
+
+if a <= h <= b:
+    print("Нормальный сон")
+elif h < a:
+    print("Недосып")
+else:
+    print("Пересып")
+
+#задача 3
+
+import math
+
+a = float(input())
+b = float(input())
+c = float(input())
+
+p = (a + b + c) / 2
+s = math.sqrt(p - a) * (p - b) * (p - c)
+
+print(s)
+
+#задача 4
+
+figure = input()
+
+if figure == "прямоугольник":
+    a = float(input())
+    b = float(input())
+    area = a * b
+elif figure == "круг":
+    r = float(input())
+    area = 3.14 * r * r
+elif figure == "треугольник":
+    a = float(input())
+    b = float(input())
+    c = float(input())
+
+    p = (a + b + c) / 2
+    area = (p * (p - a) * (p - b) * (p - c)) ** 0.5
+
+print(area)
+
+#задача 5
+
+n = int(input())
+
+if n % 10 == 1 and n % 100 != 11:
+    word = "программист"
+elif n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
+    word = "программиста"
+else:
+    word = "программистов"
+
+print(n, word)
+
+#задача 6
+
+ticket = input().strip()
+
+if len(ticket) != 6:
+    print("Некорректный номер билета")
+else:
+    first_sum = int(ticket[0]) + int(ticket[1]) + int(ticket[2])
+    last_sum = int(ticket[3]) + int(ticket[4]) + int(ticket[5])
+    
+    if first_sum == last_sum:
+        print("Счастливый")
+    else:
+        print("Обычный")
