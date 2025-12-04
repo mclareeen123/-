@@ -79,4 +79,5 @@ else:
     if first_sum == last_sum:
         print("Счастливый")
     else:
+
         print("Обычный")
